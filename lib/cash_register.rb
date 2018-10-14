@@ -13,7 +13,8 @@ class CashRegister
     @total += price*quantity
   end
 def apply_discount
-  @total = discount * .01
+  @discount = 0.2
+  @total *= discount
 end
   
   
