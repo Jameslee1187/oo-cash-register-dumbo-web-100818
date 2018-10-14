@@ -17,7 +17,8 @@ def apply_discount
   @total *= discount
   "After the discount, the total comes to $800."
   if @discount == 0
-    return 
+    return "There is no discount to apply."
+  end
 end
   
   
