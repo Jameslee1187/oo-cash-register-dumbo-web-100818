@@ -21,7 +21,7 @@ def apply_discount
 			return "After the discount, the total comes to $#{@total}."
 		end
 	end
-end
+
   
 end
   
